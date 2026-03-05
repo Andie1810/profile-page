@@ -1,4 +1,107 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Instrument Sans', sans-serif;
+    background-color: #F8F8F8;
+    color: #1B1B1B;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin: 70px 58px 0 58px;
+    gap: 30px;
+}
+
+.profile-photo {
+    width: 180px;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.profile-info p {
+    margin: 5px 0 0 0;
+    color: rgb(27, 27, 27, 0.5);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.profile-actions {
+    margin-left: auto;
+}
+
+.profile-actions button {
+    width: 180px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 9px;
+    border-radius: 20px;
+    border: 1px solid #8DB3E3;
+    color: #8DB3E3;
+    background-color: #F8F8F8;
+    height: 38px;
+}
+
+.profile-actions button:first-child {
+    background-color: #8DB3E3;
+    color: #F8F8F8;
+}
+
+.main-content {
+    margin: 58px;
+    display: flex;
+    gap: 18px;
+}
+
+.left-card {
+    flex: 2;
+    background-color: rgb(141, 179, 227, 0.2);
+    padding: 25px;
+    border-radius: 10px;
+    width: 692px;
+}
+
+.left-card h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.left-card p {
+    color: rgb(27, 27, 22, 0.75);
+    margin: 14px 0 32px 0;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.right-card {
+    flex: 1;
+    background-color: rgb(141, 179, 227, 0.2);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.right-card h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.right-card li {
+    display: inline-block;
+    border: 1px solid #8DB3E3;
+    padding:
+}
+
+.right-card p {
+    color: rgb(27, 27, 22, 0.75);
+    margin: 14px 0 32px 0;
+    font-size: 16px;
+    line-height: 1.5em;
 }
