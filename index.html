@@ -3,17 +3,66 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Profile Page</title>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
+    <header class="profile-header">
+      <img src="profile pic.png" alt="Headshot of Andrea Hsu" class="profile-photo">
+    </header>
+  
+    <div class="profile-info">
+      <h1>Andrea Hsu</h1>
+      <p>UX Designer</p>
+    </div>
+
+    <div class="profile-actions">
+      <button>Follow</button>
+      <button>Message</button>
+    </div>
+
+    <div class="main-content">
+      <div class="left-card">
+        <h2>Experience</h2>
+        <p>I designed a responsive website for an architecture firm with a clean visual layout and intuitive navigation.</p>
+        <h2>About Me</h2>
+        <p>Currently, I'm pursuing a Master of Science in UX at Michigan State University. I'm passionate about designing digital experiences and enjoy experimenting with layout, typography, and spacing to create interfaces that are both visually appealing and easy to use. I find it interesting how small design details can completely change the way something feels to interact with.</p>
+      </div>
+      <div class="right-card">
+        <section>
+          <h3>Skills</h3>
+          <ul>
+            <li>UX Research</li>
+            <li>Figma</li>
+            <li>Wireframing</li>
+            <li>Prototyping</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Location</h3>
+          <p>Hong Kong, Hong Kong SAR</p>
+        </section>
+        <section>
+          <h3>Email</h3>
+          <p>andreahsu@gmail.com</p>
+        </section>
+        <section>
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    
+    <div class="projects">
+      <h2>Projects</h2>
+      <div class="project-cards">
+        <img src="project 1.png" alt="Sprout mobile app">
+        <img src="project 2.png" alt="Sprout desktop website">
+        <img src="project 3.png" alt="Galactic Pizza mobile website">
+      </div>
+    </div>
   </body>
 </html>
